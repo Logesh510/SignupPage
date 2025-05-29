@@ -10,12 +10,31 @@ body,html
 }
 main
 {
+    font-size: larger;
     background-color: rgb(213, 213, 213);
     width: 30vw;
-    height: 60vh;
+    height: 65vh;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    gap: 2.5vh;
     border-radius: 5%;
+}
+.auth, .caa
+{
+    font-size: larger;
+    font-weight: bold;
+}
+input, button
+{
+    width: 25vw;
+    height: 6vh;
+    border: none;
+    border-radius: 5px;
+}
+button
+{
+    font-size: large;
+    width: 10vw;
 }
